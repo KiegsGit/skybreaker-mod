@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "skybreaker",
+  "version": "${version}",
+  "name": "Skybreaker: Orbital Arsenal",
+  "description": "Orbital strikes, railguns, satellite lasers, and meteor barrages from the skies.",
+  "authors": [
+    "Solice"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/skybreaker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.skybreaker.SkybreakerMod"
+    ],
+    "client": [
+      "com.skybreaker.client.SkybreakerClient"
+    ]
+  },
+  "mixins": [
+    "skybreaker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
